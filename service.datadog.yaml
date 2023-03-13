@@ -1,33 +1,27 @@
 schema-version: v2
 dd-service: adw-server
-team: shopist
+team: Shared Services
 contacts:
   - type: slack
-    contact: https://exampleincidents.slack.com/archives/C01EWN6319S
+    contact: "https://goodrx.slack.com/archives/frontend"
 links:
-  - name: Demo Dashboard
-    type: dashboard
-    url: https://app.examplehq.com/dashboard/krp-bq6-362
-  - name: Common Operations
-    type: runbook
-    url: https://examplehq.atlassian.net/wiki/
-  - name: Disabling Deployments
-    type: runbook
-    url: https://examplehq.atlassian.net/wiki/
-  - name: Rolling Back Deployments
-    type: runbook
-    url: https://examplehq.atlassian.net/wiki/
+  - name: "Runbook"
+    type: "runbook"
+    url: "no-runbook"
+
 repos:
-  - name: Source
+  - name: "goodrx-mobile-rewrite"
     provider: github
-    url: https://github.com/Example/shopist/tree/prod/rails-storefront
-  - name: Deployment
-    provider: github
-    url: https://github.com/Example/shopist/blob/prod/k8s/dd-trace-demo/templates/rails-storefront-deployment.yaml
+    url: "https://github.com/GoodRx/goodrx-mobile-rewrite"
+
 docs:
-  - name: Deployment Information
-    provider: link
-    url: https://docs.datadoghq.com/
-  - name: Service Documentation
-    provider: link
-    url: https://docs.datadoghq.com/
+  - name: "Opslevel"
+    provider: "opslevel"
+    url: "https://app.opslevel.com/services/adaptive"
+
+integrations:
+  - pagerduty: "https://goodrx.pagerduty.com/service-directory/PZO6869"
+
+tags:
+  - "tier:1"
+  - "app:adaptive"
