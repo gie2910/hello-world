@@ -16,6 +16,8 @@ docs:
   - name: "Opslevel"
     provider: "opslevel"
     url: "https://app.opslevel.com/services/adaptive"
+integrations:
+  pagerduty: https://www.pagerduty.com/service-directory/shopping-cart
 tags:
   - "tier:1"
   - "app:adaptive"
