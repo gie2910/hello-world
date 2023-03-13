@@ -8,20 +8,16 @@ links:
   - name: "Runbook"
     type: "runbook"
     url: "no-runbook"
-
 repos:
   - name: "goodrx-mobile-rewrite"
     provider: github
     url: "https://github.com/GoodRx/goodrx-mobile-rewrite"
-
 docs:
   - name: "Opslevel"
     provider: "opslevel"
     url: "https://app.opslevel.com/services/adaptive"
-
 integrations:
   - pagerduty: "https://goodrx.pagerduty.com/service-directory/PZO6869"
-
 tags:
   - "tier:1"
   - "app:adaptive"
