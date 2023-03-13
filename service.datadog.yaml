@@ -16,3 +16,6 @@ docs:
   - name: "Opslevel"
     provider: "opslevel"
     url: "https://app.opslevel.com/services/adaptive"
+tags:
+  - "tier:1"
+  - "app:adaptive"
