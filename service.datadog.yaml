@@ -1,6 +1,6 @@
 ---
 schema-version: v2
-dd-service: adw-server
+dd-service: GIB-server-GIB
 team: Shared Services
 contacts:
   - type: slack
@@ -11,7 +11,7 @@ links:
     url: "no-runbook"
 
 repos:
-  - name: "goodrx-mobile-rewrite"
+  - name: "goodrx-mobile-rewrite-GIB"
     provider: github
     url: "https://github.com/GoodRx/goodrx-mobile-rewrite"
 
@@ -24,5 +24,5 @@ integrations:
   - pagerduty: "https://goodrx.pagerduty.com/service-directory/PZO6869"
 
 tags:
-  - "tier:1"
+  - "tier:10"
   - "app:adaptive"
