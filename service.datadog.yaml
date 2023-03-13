@@ -1,6 +1,6 @@
 ---
 schema-version: v2
-dd-service: GIB-server-GIB
+dd-service: adw-server
 team: Shared Services
 contacts:
   - type: slack
