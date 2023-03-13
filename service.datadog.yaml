@@ -16,5 +16,3 @@ docs:
   - name: "Opslevel"
     provider: "opslevel"
     url: "https://app.opslevel.com/services/adaptive"
-integrations:
-  - pagerduty: "https://goodrx.pagerduty.com/service-directory/PZO6869
